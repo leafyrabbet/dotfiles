@@ -10,8 +10,8 @@ You can clone this repo anywhere you want, and these instructions will present h
 
 ```bash
 cp -R ./.bashrc.d ~/
-cp ~/.bash_profile ~/
-cp ~/.bashrc ~/
+cp ./.bash_profile ~/
+cp ./.bashrc ~/
 ```
 
 Note that `cp -R` will copy only the contents of the source directory, so long as the source ends with `/`; by not including it we can assure that the directory itself is copied to the destination.
